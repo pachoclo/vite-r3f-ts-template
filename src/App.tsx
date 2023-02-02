@@ -1,4 +1,3 @@
-import ReactDOM from 'react-dom'
 import { Canvas } from '@react-three/fiber'
 import './styles.css'
 
