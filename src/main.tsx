@@ -35,6 +35,7 @@ function Main() {
           far: 200,
           position: [3, 2, 9],
         }}
+        shadows
       >
         <Scene />
       </Canvas>

@@ -7,6 +7,7 @@
 - [x] Debug UI with Leva
 - [x] Performance monitoring with R3F-perf
 - [x] Directional and Ambient Lights
+- [x] Shadows
 
 ## 🕹️ Commands
 
