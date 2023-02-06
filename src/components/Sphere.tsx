@@ -14,16 +14,7 @@ function Sphere() {
   })
 
   return (
-    <PivotControls
-      anchor={[0, 0, 0]}
-      depthTest={false}
-      visible={gizmo}
-      ref={pivotRef}
-      onDragEnd={() => {
-        console.log(sphereRef.current?.position)
-        console.log(pivotRef.current?.position)
-      }}
-    >
+    <PivotControls anchor={[0, 0, 0]} depthTest={false} visible={gizmo} ref={pivotRef}>
       <mesh position={position} ref={sphereRef}>
         <sphereGeometry args={[1, 30, 30]} />
         <meshStandardMaterial color={color} />
