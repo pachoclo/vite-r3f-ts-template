@@ -4,9 +4,9 @@ import { useControls } from 'leva'
 import { Perf } from 'r3f-perf'
 import { useRef } from 'react'
 import { BoxGeometry, Mesh, MeshBasicMaterial } from 'three'
-import { Cube } from './components/Cube'
-import { Plane } from './components/Plane'
-import { Sphere } from './components/Sphere'
+import { Cube } from '@/components/Cube'
+import { Plane } from '@/components/Plane'
+import { Sphere } from '@/components/Sphere'
 
 function Scene() {
   const { performance } = useControls('Monitoring', {
