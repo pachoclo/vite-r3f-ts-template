@@ -27,7 +27,7 @@ function Main() {
         gl={{
           antialias: true,
           toneMapping: ACESFilmicToneMapping,
-          outputEncoding: sRGBEncoding,
+          outputColorSpace: SRGBColorSpace,
         }}
         camera={{
           fov: 55,
